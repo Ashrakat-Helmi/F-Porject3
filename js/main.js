@@ -53,9 +53,58 @@ $(window).scroll(function () {
     }
 });
 //  end go up =========================================================
-
-// smoth scroll
+// smoth scroll 
 var scroll = new SmoothScroll('a[href*="#"]', {
     speed: 300
 });
-//  end smoth scroll ======================================================
+// end smoth scroll ========================
+
+// nicd scroll
+$(function () {
+    $("body").niceScroll({
+        cursorwidth: "10px"
+    });
+});
+//  end nice scroll ======================================================
+
+//  wow =======
+new WOW().init();
+// end wow ===================================================================
+
+document.documentElement.style.setProperty('--animate-duration', '.5s');
+
+// funny txt
+$(document).ready(function() {
+	$('.mySelector').funnyText({
+		speed: 300});
+});
+$(document).ready(function() {
+	$('.mySelector1').funnyText({
+		speed: 300});
+});
+$(document).ready(function() {
+	$('.mySelector2').funnyText({
+		speed: 300});
+});
+$(document).ready(function() {
+	$('.mySelector3').funnyText({
+		speed: 300});
+});
+$(document).ready(function() {
+	$('.mySelector4').funnyText({
+		speed: 300});
+});
+$(document).ready(function() {
+	$('.mySelector5').funnyText({
+		speed: 300});
+});
+$(document).ready(function() {
+	$('.mySelector6').funnyText({
+		speed: 300});
+});
+
+// end fuuny text =======================================
+
+// fit text 
+jQuery("#responsive_headline").fitText();
+// end fit text =======================================
