@@ -105,6 +105,3 @@ $(document).ready(function() {
 
 // end fuuny text =======================================
 
-// fit text 
-jQuery("#responsive_headline").fitText();
-// end fit text =======================================
