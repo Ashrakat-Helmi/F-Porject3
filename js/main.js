@@ -62,16 +62,18 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 // nicd scroll
 $(function () {
     $("body").niceScroll({
-        cursorwidth: "10px"
+        cursorwidth: "10px",
+        zindex: "25625" 
     });
 });
 //  end nice scroll ======================================================
 
 //  wow =======
 new WOW().init();
+document.documentElement.style.setProperty('--animate-duration', '.5s');
 // end wow ===================================================================
 
-document.documentElement.style.setProperty('--animate-duration', '.5s');
+
 
 // funny txt
 $(document).ready(function() {
