@@ -63,7 +63,8 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 $(function () {
     $("body").niceScroll({
         cursorwidth: "10px",
-        zindex: "25625" 
+        zindex: "25625",
+        cursoropacitymin: 1 
     });
 });
 //  end nice scroll ======================================================
